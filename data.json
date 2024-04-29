@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "image_url": "https://images.pexels.com/photos/19987317/pexels-photo-19987317/free-photo-of-art-motif-architecture-luxe.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "title 1",
+    "content": "content 1",
+    "like": 0
+  },
+  {
+    "id": 2,
+    "image_url": "https://images.pexels.com/photos/19987317/pexels-photo-19987317/free-photo-of-art-motif-architecture-luxe.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "title 2",
+    "content": "content 2",
+    "like": 2
+  }
+]
