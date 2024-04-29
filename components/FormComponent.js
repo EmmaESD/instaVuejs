@@ -6,13 +6,13 @@ export const FormComponent = {
     };
   },
   props: {
-    handleSubmit: Function,
+    handlesubmit: Function,
   },
   template: `
-    <form :submit.prevent="handleSubmit(title, content)">
-        <input type="text" placeholder="title" />
-        <input type="text" placeholder="content" />
-        <input type="text" placeholder="submit" />
+    <form @submit.prevent="handlesubmit(title, content)">
+        <input type="text" placeholder="title" v-model="title" />
+        <input type="text" placeholder="content" v-model="content"/>
+        <input type="submit" value="submit" />
     </form>
     `,
 };
